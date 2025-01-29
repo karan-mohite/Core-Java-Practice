@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ListDemo {
     public static void main(String[] args) {
@@ -15,11 +16,13 @@ public class ListDemo {
         l.add(null);
         // System.out.println(l);
 
-        Iterator itr=l.iterator();
-        while (itr.hasNext())
-        {
-            System.out.println(itr.next());    
+        // Iterator itr = l.iterator();
+        // while (itr.hasNext()) {
+        // System.out.println(itr.next());
+        // }
+        ListIterator litr = l.listIterator();
+        while (litr.hasNext()) {
+            System.out.println(litr.next());
         }
-
     }
 }
