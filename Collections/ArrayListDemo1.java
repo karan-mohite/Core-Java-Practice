@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo1 {
     public static void main(String[] args) {
@@ -20,8 +21,17 @@ public class ArrayListDemo1 {
         // System.out.println(a1);
         // a1.clear();
 
-        System.out.println(a1.get(3));
-        System.out.println(a1.size());
-        System.out.println(a1.contains(50));
+        // System.out.println(a1.indexOf(50));
+        // System.out.println(a1.set(0, "Vishal"));
+        // System.out.println(a1.get(3));
+        // System.out.println(a1.size());
+        // System.out.println(a1.contains(50));
+
+        Iterator itr = a1.iterator();
+
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+
     }
 }
