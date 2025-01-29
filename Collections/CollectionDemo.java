@@ -19,12 +19,9 @@ public class CollectionDemo {
         // al2.add("ddd");
         // al2.add("ccc");
 
-        // a1.removeAll(al2);  
+        // a1.removeAll(al2);
         // System.out.println(a1);
         // System.out.println(al2);
-
-         
-
 
         // ArrayList a2 = new ArrayList<>();
         // a2.add("aaaa");
@@ -38,7 +35,6 @@ public class CollectionDemo {
         // System.out.println(a2);
         // System.out.println(a1.contains(100));
         // System.out.println(a1.isEmpty());
-       
 
     }
 }
