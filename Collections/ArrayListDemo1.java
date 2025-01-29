@@ -32,6 +32,5 @@ public class ArrayListDemo1 {
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
-
     }
 }
