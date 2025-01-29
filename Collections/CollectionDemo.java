@@ -7,11 +7,23 @@ public class CollectionDemo {
         a1.add("aaa");
         a1.add("bbb");
         a1.add("ccc");
+        // System.out.println(a1);
+        // System.out.println(a1.size());
+        // System.out.println(a1.remove("bbb"));
+        // System.out.println(a1);
+        a1.clear();
         System.out.println(a1);
-        System.out.println(a1.size());
-        System.out.println(a1.remove("bbb"));
-        System.out.println(a1);
-        
+
+        // ArrayList al2=new ArrayList<>();
+        // al2.add("bbb");
+        // al2.add("ddd");
+        // al2.add("ccc");
+
+        // a1.removeAll(al2);  
+        // System.out.println(a1);
+        // System.out.println(al2);
+
+         
 
 
         // ArrayList a2 = new ArrayList<>();
