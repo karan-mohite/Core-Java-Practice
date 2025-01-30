@@ -18,6 +18,8 @@ public class Legacy_And_Vector {
         // System.out.println(v.removeElement("Karan"));
         // v.removeElementAt(1);
         // v.removeAllElements();
-        System.out.println(v.capacity());
+        // System.out.println(v.capacity());
+        v.setElementAt(111, 0);
+        System.out.println(v);
     }
 }
