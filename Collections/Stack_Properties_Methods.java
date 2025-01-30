@@ -15,6 +15,5 @@ public class Stack_Properties_Methods {
         // System.out.println(s.search(101));
 
         System.out.println(s.empty());  
-
     }
 }
