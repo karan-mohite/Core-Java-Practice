@@ -5,12 +5,11 @@ import java.util.Iterator;
 public class HashSetDemo {
     public static void main(String[] args) {
 
-        ArrayList al=new ArrayList<>();
+        ArrayList al = new ArrayList<>();
 
         al.add("Karan");
         al.add(1010);
         al.add('c');
-
 
         HashSet hs = new HashSet<>();
         // hs.add(10);
@@ -26,7 +25,7 @@ public class HashSetDemo {
         hs.add(30);
         hs.add(10);
         hs.add(20);
-        hs.add(40);        
+        hs.add(40);
 
         // hs.clear();
 
@@ -34,14 +33,14 @@ public class HashSetDemo {
         System.out.println(hs.size());
         System.out.println(hs);
 
-    //    System.out.println(hs.contains("Karan"));
+        // System.out.println(hs.contains("Karan"));
 
-    //     System.out.println(hs);
+        // System.out.println(hs);
 
-    //    Iterator itr= hs.iterator();
-    //    while (itr.hasNext())
-    //    {
-    //         System.out.println(itr.next()); 
-    //    }
+        // Iterator itr= hs.iterator();
+        // while (itr.hasNext())
+        // {
+        // System.out.println(itr.next());
+        // }
     }
 }
