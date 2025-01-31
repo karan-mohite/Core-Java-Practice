@@ -1,4 +1,5 @@
-public class ClassObjectMethodDemo {
+public class Animal {
+
     public void run() {
         System.out.println("This is Animal Block");
     }
@@ -8,8 +9,17 @@ public class ClassObjectMethodDemo {
     }
 
     public static void main(String[] args) {
-        ClassObjectMethodDemo al = new ClassObjectMethodDemo();
+        Animal al = new Animal();
         al.run();
         al.eat();
+
+        Birds b = new Birds();
+        b.fly();
+    }
+}
+
+class Birds {
+    void fly() {
+        System.out.println("I am Fly..!!");
     }
 }
