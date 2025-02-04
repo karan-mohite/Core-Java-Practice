@@ -13,7 +13,6 @@ public class StringDemo {
         // String s2=new String(c);
         // System.out.println(s2);
 
-
         char[] s1=new char[]{'a','b','c'};  //This method is best for to store a password because user dont know how to store a password in background
 
         String s2=new String("Karan");
